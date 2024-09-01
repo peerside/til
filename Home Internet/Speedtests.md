@@ -14,9 +14,12 @@ Below are the my results from a wired connection (no Wifi) using a virgin media 
 | [Cloudflare](https://speed.cloudflare.com/) | 525 | 34 | UK/London |
 | [Netflix](https://www.speedcheck.org/) | 750 | 43 | Ireland/Dublin, Germany/Frankfurt|
 | [Ookla](https://www.speedtest.net/) | 738 | 49 | Ireland/Dublin |
-| [Speedcheck.org](Speedcheck.org) | 131 | 50 | Ireland | 
+| [Speedcheck.org](Speedcheck.org)* | 194 | 51 | Ireland | 
 | [Speedtest.org](https://www.speedcheck.org/)| 703 | 49 | UK|
 
+From these results I have between 700 and 740 MBs download and bwtween 24 and 49 upload if we ignore speedcheck.org. 
+
+Despite being an Irish server Speedcheck.org measured by far the lowest result. I replicated a similar result with speedtest.org by selecting a slower Irish server with 1Gbs bandwidth instead of the default 10Gbs one in the UK so it seems Speedcheck.org is throtteld by the server it's using.
 
 To get a feel for 'average' speeds in your region, take a look at international surveys like:
 
@@ -35,13 +38,13 @@ About: https://speed.cloudflare.com/about/
 
 Results:
 
-![Cloudflare speed test results](https://github.dev/peerside/til/speedtests/image.png)
+![Cloudflare speed test results](image.png)
 
 
 ## Netflix Fast.com
 Test: https://www.fast.com/
 
-About: https://netflixtechblog.com/building-fast-com-4857fe0f8adb
+About: [Building fast.com](https://netflixtechblog.com/building-fast-com-4857fe0f8adb)
 
 Results: 
 ![Netflix Fast.com results](image-1.png)
@@ -53,7 +56,7 @@ Test: https://www.speedtest.net/
 About: https://www.ookla.com/resources/guides/speedtest-methodology
 
 Results: 
-![alt text](speedtests/image-2.png)
+![alt text](image-2.png)
 
 
 ### Speedcheck.org
